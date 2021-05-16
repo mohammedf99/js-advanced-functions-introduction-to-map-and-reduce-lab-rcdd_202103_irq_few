@@ -9,11 +9,7 @@ function mapToNegativize(srcArr) {
   return newArr;
 }
 
-function mapToNoChange(srcArr) {
-  let newArr = [];
-  for (let i = 0; i < srcArr.length; i++) {
-    newArr.push(srcArr[i] * -1);
-  }
+
+function mapToDouble(srcArr) {
   
-  return newArr;
 }
