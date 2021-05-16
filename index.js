@@ -61,9 +61,6 @@ function reduceToAllTrue(srcArr) {
       return false;
     }
     
-    if(srcArr[i]){
-      return true;
-    }
   }
 }
 
