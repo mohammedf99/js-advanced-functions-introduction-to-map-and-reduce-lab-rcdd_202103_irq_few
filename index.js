@@ -60,6 +60,10 @@ function reduceToAllTrue(srcArr) {
     if(!srcArr[i]) {
       return false;
     }
+    
+    if(srcArr[i]){
+      return true;
+    }
   }
 }
 
