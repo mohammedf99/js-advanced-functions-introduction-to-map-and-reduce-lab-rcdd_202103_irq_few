@@ -70,16 +70,9 @@ function reducetoAnyTrue(srcArr) {
   let result = true;
   
   for (let i = 0; i < srcArr.length; i++){
-    result += srcArr[i];
+    
   }
   
-  if(result >= 1){
-    result = true;
-  } else {
-    result = false;
-  }
-  
-  return result;
 }
 
 
