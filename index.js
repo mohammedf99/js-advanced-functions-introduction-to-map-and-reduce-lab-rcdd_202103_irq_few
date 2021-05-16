@@ -57,9 +57,7 @@ function reduceToAllTrue(srcArr) {
   
   for (let i = 0; i < srcArr.length; i++){
     
-    if(srcArr[i]) {
-      return true;
-    } else if(srcArr[i] === false) {
+    if(!srcArr[i]) {
       return false;
     }
   }
