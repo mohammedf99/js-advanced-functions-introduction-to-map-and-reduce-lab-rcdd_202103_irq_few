@@ -70,7 +70,7 @@ function reducetoAnyTrue(srcArr) {
   let result = false;
   
   for (let i = 0; i < srcArr.length; i++){
-    if(srcArr[i]) result = true;
+    if(srcArr[i] == true) result = true;
   }
   
   return result;
