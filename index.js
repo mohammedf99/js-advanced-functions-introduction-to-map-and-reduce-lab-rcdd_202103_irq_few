@@ -66,24 +66,17 @@ function reduceToAllTrue(srcArr) {
   return result;
 }
 
-// function reducetoAnyTrue(srcArr) {
-//   let result = false;
+function reducetoAnyTrue(srcArr) {
+  let result = false;
   
-//   for (let i = 0; i < srcArr.length; i++){
-//     if(srcArr[i]) result = true;
-//   }
+  for (let i = 0; i < srcArr.length; i++){
+    if(srcArr[i]) result = true;
+  }
   
-//   return result;
+  return result;
   
-// }
+}
 
-// function reduceToAnyTrue(sourceArray) {
-//   let result = false;
-//   for(let i=0; i<sourceArray.length; i++){
-//     if(sourceArray[i] == true) result = true;
-//   }
-//   return result;
-// }
 
 
 
