@@ -67,11 +67,13 @@ function reduceToAllTrue(srcArr) {
 }
 
 function reducetoAnyTrue(srcArr) {
-  let result = true;
+  let result = false;
   
   for (let i = 0; i < srcArr.length; i++){
-    
+    if(srcArr[i] === true) result = true;
   }
+  
+  return result;
   
 }
 
