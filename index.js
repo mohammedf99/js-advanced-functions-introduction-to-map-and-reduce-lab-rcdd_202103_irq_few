@@ -73,6 +73,12 @@ function reducetoAnyTrue(srcArr) {
     result += srcArr[i];
   }
   
+  if(result >= 1){
+    result = true;
+  } else {
+    result = false;
+  }
+  
   return result;
 }
 
