@@ -11,5 +11,10 @@ function mapToNegativize(srcArr) {
 
 
 function mapToDouble(srcArr) {
+  let newArr = [];
+  for (let i = 0; i < srcArr.length; i++) {
+    newArr.push(srcArr[i] * 2);
+  }
   
+  return newArr;
 }
