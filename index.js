@@ -39,7 +39,7 @@ function mapToSquare(srcArr) {
 
 function reduceToTotal(srcArr, startingPoint) {
   let total;
-  if (startingPoint === isNaN) {
+  if (startingPoint === undefined) {
     total = 0;
   } else {
     total = startingPoint;
