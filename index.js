@@ -23,6 +23,7 @@ function mapToDouble(srcArr) {
   return newArr;
 }
 
+
 function mapToSquare(srcArr) {
   let newArr = [];
   
@@ -32,6 +33,29 @@ function mapToSquare(srcArr) {
   
   return newArr;
 }
+
+
+//reduce functions
+
+function reduceToTotal(srcArr) {
+  let total = 0;
+  
+  for (let i = 0; i < srcArr.length; i++){
+    total += srcArr[i];
+  }
+  
+  return total;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
