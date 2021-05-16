@@ -77,13 +77,13 @@ function reduceToAllTrue(srcArr) {
   
 // }
 
-function reduceToAnyTrue(sourceArray) {
-  let result = false;
-  for(let i=0; i<sourceArray.length; i++){
-    if(sourceArray[i] == true) result = true;
-  }
-  return result;
-}
+// function reduceToAnyTrue(sourceArray) {
+//   let result = false;
+//   for(let i=0; i<sourceArray.length; i++){
+//     if(sourceArray[i] == true) result = true;
+//   }
+//   return result;
+// }
 
 
 
