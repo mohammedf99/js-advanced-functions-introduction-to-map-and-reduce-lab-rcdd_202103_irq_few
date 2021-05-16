@@ -12,6 +12,7 @@ function mapToNegativize(srcArr) {
 }
 
 function mapToNoChange(srcArr) {
+  
   let newArr = [];
   
   for (let i = 0; i < srcArr.length; i++){
@@ -49,6 +50,7 @@ function mapToSquare(srcArr) {
 //reduce functions
 
 function reduceToTotal(srcArr, startingPoint) {
+  
   let total;
   
   if (startingPoint === undefined) {
