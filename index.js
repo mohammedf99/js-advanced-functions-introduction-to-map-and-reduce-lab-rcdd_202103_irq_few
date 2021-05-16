@@ -25,6 +25,7 @@ function mapToDouble(srcArr) {
 
 
 function mapToSquare(srcArr) {
+  
   let newArr = [];
   
   for (let i = 0; i < srcArr.length; i++) {
@@ -39,6 +40,7 @@ function mapToSquare(srcArr) {
 
 function reduceToTotal(srcArr, startingPoint) {
   let total;
+  
   if (startingPoint === undefined) {
     total = 0;
   } else {
@@ -54,14 +56,24 @@ function reduceToTotal(srcArr, startingPoint) {
 
 
 function reduceToAllTrue(srcArr) {
+  
   let result = true;
+  
   for (let i = 0; i < srcArr.length; i++){
-    
     if(!srcArr[i]) result = false;
-    
   }
   
-  return result
+  return result;
+}
+
+function reducetoAnyTrue(srcArr) {
+  let result = true;
+  
+  for (let i = 0; i < srcArr.length; i++){
+    result += srcArr[i];
+  }
+  
+  return result;
 }
 
 
