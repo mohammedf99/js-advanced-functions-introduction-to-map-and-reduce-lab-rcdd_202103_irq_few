@@ -37,8 +37,13 @@ function mapToSquare(srcArr) {
 
 //reduce functions
 
-function reduceToTotal(srcArr) {
-  let total = 0;
+function reduceToTotal(srcArr, startingPoint) {
+  let total;
+  if (startingPoint === isNaN) {
+    total = 0;
+  } else {
+    total = startingPoint;
+  }
   
   for (let i = 0; i < srcArr.length; i++){
     total += srcArr[i];
