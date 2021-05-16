@@ -59,6 +59,8 @@ function reduceToAllTrue(srcArr) {
     
     if(srcArr[i]) {
       return true;
+    } else if(srcArr[i] === false) {
+      return false;
     }
   }
 }
