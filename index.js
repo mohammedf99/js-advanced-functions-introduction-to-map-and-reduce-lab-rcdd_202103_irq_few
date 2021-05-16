@@ -53,6 +53,17 @@ function reduceToTotal(srcArr, startingPoint) {
 }
 
 
+function reduceToAllTrue(srcArr) {
+  
+  for (let i = 0; i < srcArr.length; i++){
+    if(srcArr[i]) {
+      return true;
+    }else {
+      return false;
+    }
+  }
+}
+
 
 
 
