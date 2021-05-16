@@ -54,14 +54,14 @@ function reduceToTotal(srcArr, startingPoint) {
 
 
 function reduceToAllTrue(srcArr) {
-  
+  let result = true;
   for (let i = 0; i < srcArr.length; i++){
     
-    if(!srcArr[i]) {
-      return false;
-    }
+    if(!srcArr[i]) result = false;
     
   }
+  
+  return result
 }
 
 
